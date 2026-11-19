@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LuckyCric Live Score</title>
+<style>
+body{margin:0;background:#071b17;color:white;font-family:Arial;text-align:center}
+header{background:#087b49;padding:25px;font-size:27px;font-weight:bold}
+nav{padding:15px}
+button{background:#20d58a;color:#06251a;border:0;padding:12px;margin:5px;border-radius:9px;font-weight:bold}
+.card{background:#16372e;padding:25px;margin:18px;border-radius:15px}
+a{color:#20d58a}
+</style>
+</head>
+<body>
+<header>🏏 LUCKYCRIC</header>
+<h2>Cricket Live Centre</h2>
+<nav>
+<button onclick="show('Live Matches')">LIVE</button>
+<button onclick="show('Upcoming Matches')">UPCOMING</button>
+<button onclick="show('Match Results')">RESULTS</button>
+</nav>
+<div class="card" id="score">
+<h3>Welcome to LuckyCric!</h3>
+<p>Cricket Live Score Centre</p>
+<p>Live score data connection coming soon.</p>
+</div>
+<p><a href="https://t.me/luckycricin">Join Telegram Channel</a></p>
+<script>
+function show(name){
+document.getElementById('score').innerHTML=
+'<h3>'+name+'</h3><p>Cricket data connection coming soon.</p>';
+}
+</script>
+</body>
+</html>
